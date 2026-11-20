@@ -5,7 +5,7 @@ import {
   RecordFilterExceptionCode,
 } from 'src/engine/record-filter/exceptions/record-filter.exception';
 
-const ARRAY_OPERATORS = ['in', 'contains', 'notContains'];
+const ARRAY_OPERATORS = ['in', 'contains', 'notContains', 'containsAny'];
 
 export const assertArrayOperatorValueIsNonEmptyArrayOrThrow = ({
   operator,
